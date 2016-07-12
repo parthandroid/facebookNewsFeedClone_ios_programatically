@@ -38,46 +38,46 @@ class FeedController: UICollectionViewController , UICollectionViewDelegateFlowL
         
         ////////DATA/////////DATA///////DATA/////DATA
         
-//        let postMark = Post()
-//        postMark.name = "Mark Zuckerburg"
-//        postMark.statusText = "Meanwhile , beast turned to the dark side"
-//        postMark.profileImageName = "zuckprofile"
-//        postMark.statusImageName = "zuckdog"
-//        postMark.numLikes = 400
-//        postMark.numComments = 123
-//        postMark.imageUrl = "https://newevolutiondesigns.com/images/freebies/tropical-beach-background-8.jpg"
-//        
-//        
-//        let postSteve = Post()
-//        postSteve.name = "Steve Jobs"
-//        postSteve.statusText = "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me " +
-//        "Sometimes when you innovate, you make mistakes It is best to admit them quickly, and get on with improving your other innovations"
-//        postSteve.profileImageName = "steveprofile"
-//        postSteve.statusImageName = "stevepost"
-//        postSteve.numLikes = 4000
-//        postSteve.numComments = 1323
-//        postSteve.imageUrl = "https://talentdevelop.com/WordPress/wp-content/uploads/2014/03/Steve-Jobs-Think-Different.jpg"
-//        
-//        let postGandhi = Post()
-//        postGandhi.name = "Mahatma Gandhi"
-//        postGandhi.statusText = "practice non voilence . if a person slaps you , brong your other side of your face infront of him"
-//        postGandhi.profileImageName = "gandhi"
-//        postGandhi.numLikes = 400
-//        postGandhi.numComments = 123
-//        postGandhi.imageUrl = "https://timedotcom.files.wordpress.com/2014/12/gandhi-spinning-wheel-02.jpg?quality=75&strip=color&w=715"
-//        
-//        let postDonald = Post()
-//        postDonald.name = "Donald Trumph"
-//        postDonald.statusText = "i know i am mad , but i am a billionare and you cannot do anything to stop me. i am an idiot btw"
-//        postDonald.profileImageName = "donald"
-//        postDonald.numLikes = 400
-//        postDonald.numComments = 123
-//        postDonald.imageUrl = "https://ppcorn.com/us/wp-content/uploads/sites/14/2015/12/Donald-Trump-ppcorn.jpg"
-//        
-//        posts.append(postMark)
-//        posts.append(postSteve)
-//        posts.append(postGandhi)
-//        posts.append(postDonald)
+        let postMark = Post()
+        postMark.name = "Mark Zuckerburg"
+        postMark.statusText = "Meanwhile , beast turned to the dark side"
+        postMark.profileImageName = "zuckprofile"
+        postMark.statusImageName = "zuckdog"
+        postMark.numLikes = 400
+        postMark.numComments = 123
+        postMark.imageUrl = "https://newevolutiondesigns.com/images/freebies/tropical-beach-background-8.jpg"
+        
+        
+        let postSteve = Post()
+        postSteve.name = "Steve Jobs"
+        postSteve.statusText = "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me " +
+        "Sometimes when you innovate, you make mistakes It is best to admit them quickly, and get on with improving your other innovations"
+        postSteve.profileImageName = "steveprofile"
+        postSteve.statusImageName = "stevepost"
+        postSteve.numLikes = 4000
+        postSteve.numComments = 1323
+        postSteve.imageUrl = "https://talentdevelop.com/WordPress/wp-content/uploads/2014/03/Steve-Jobs-Think-Different.jpg"
+        
+        let postGandhi = Post()
+        postGandhi.name = "Mahatma Gandhi"
+        postGandhi.statusText = "practice non voilence . if a person slaps you , brong your other side of your face infront of him"
+        postGandhi.profileImageName = "gandhi"
+        postGandhi.numLikes = 400
+        postGandhi.numComments = 123
+        postGandhi.imageUrl = "https://timedotcom.files.wordpress.com/2014/12/gandhi-spinning-wheel-02.jpg?quality=75&strip=color&w=715"
+        
+        let postDonald = Post()
+        postDonald.name = "Donald Trumph"
+        postDonald.statusText = "i know i am mad , but i am a billionare and you cannot do anything to stop me. i am an idiot btw"
+        postDonald.profileImageName = "donald"
+        postDonald.numLikes = 400
+        postDonald.numComments = 123
+        postDonald.imageUrl = "https://ppcorn.com/us/wp-content/uploads/sites/14/2015/12/Donald-Trump-ppcorn.jpg"
+        
+        posts.append(postMark)
+        posts.append(postSteve)
+        posts.append(postGandhi)
+        posts.append(postDonald)
        
 
     navigationItem.title = "facebook feed"
